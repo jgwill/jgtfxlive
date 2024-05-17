@@ -1,0 +1,3 @@
+forexconnect
+pandas
+jgtutils

@@ -43,7 +43,7 @@ def generate_config(instruments, timeframes, nb_bar=500, default_headers="DateTi
   # Return the XML as a string
   return ET.tostring(config, encoding='utf8', method='xml').decode()
 
-if __name__ == '__main__':
+def main():
   import argparse
   parser = argparse.ArgumentParser(description='Generate a configuration file for the ptoLiveChartDataExport')
   parser.add_argument('--instruments', help='The list of instruments to export (comma-separated)')
@@ -69,3 +69,6 @@ if __name__ == '__main__':
   with open(outxml, 'w') as f:
     f.write(config)
     print("Configuration file written to:", outxml)
+
+if __name__ == '__main__':
+  main()

@@ -47,7 +47,7 @@ def parse_args():
                             metavar="PASSWORD",
                             required=False,
                             help='Your password.')
-    arg_parser.add_argument('-config', metavar="CONFIG_FILE", default='Configuration.xml',
+    arg_parser.add_argument('-config', metavar="CONFIG_FILE", default='jgtfxliveconfig.xml',
                             help='Config file')
 
     args = arg_parser.parse_args()

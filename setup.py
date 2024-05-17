@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='jgtfxlive',
-    version='0.1.7',
+    version='0.1.8',
     author="GUillaume Isabelle",
     author_email="jgi@jgwill.com",
     url="https://github.com/jgwill/jgtfxlive",

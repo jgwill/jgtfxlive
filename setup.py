@@ -2,9 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='jgtfxlive',
-    version='1.0.0',
-    author='Your Name',
-    author_email='your@email.com',
+    version='0.1.0',
+    author="GUillaume Isabelle",
+    author_email="jgi@jgwill.com",
+    url="https://github.com/jgwill/jgtfxlive",
     description='A Python module for live chart data export',
     packages=find_packages(),
     entry_points={

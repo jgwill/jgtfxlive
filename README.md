@@ -7,8 +7,18 @@ jgtfxlive is a Python module that provides functionality for live chart data exp
 To install jgtfxlive, you can use pip:
 
 ```shell
-pip install jgtfxlive
+pip install --user jgtfxlive
 ```
+
+# should works but has issue
+
+* It hangs when you run it.  It works when you call the script like:
+
+```bash
+python jgtfxlive/ptoLiveChartDataExport/LiveChartDataExport.py -config config.xml
+```
+
+
 
 ## Usage
 

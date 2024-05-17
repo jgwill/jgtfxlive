@@ -357,8 +357,8 @@ def main():
     args = parse_args()
     config_file = args.config
     if not os.path.exists(config_file):
-        os.path.join(path_from_where_we_call,config_file)
-        
+        config_file=os.path.join(path_from_where_we_call,config_file)
+
     jgtconf=jgtcommon.readconfig()
     
     if args.p:
